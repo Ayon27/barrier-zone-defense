@@ -67,7 +67,6 @@ Available configurations (defined in `barz_configs.py`):
 The original BARZ research and implementation were developed at the University of Connecticut. 
 
 - **Paper:** [BARZ: Barrier Zones for Adversarial Example Defense](https://ieeexplore.ieee.org/document/9663375)
-- **Contact:** kaleel.mahmood@uconn.edu
 
 This implementation builds upon several open-source works:
 - ResNet implementation adapted from `torchvision`.
