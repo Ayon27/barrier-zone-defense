@@ -1,6 +1,6 @@
 # BARZ: Barrier Zones for Adversarial Example Defense
 
-This repository provides the PyTorch implementation for the Barrier Zone (BARZ) defense system, as described in the paper: [Barrier Zones for Adversarial Example Defense](https://ieeexplore.ieee.org/document/9663375), a wrapper on top of it to use it with various ensemble configurations.
+This repository provides the PyTorch implementation of the Barrier Zone (BARZ) defense system, as described in the paper [Barrier Zones for Adversarial Example Defense](https://ieeexplore.ieee.org/document/9663375), along with a wrapper that supports various ensemble configurations.
 
 BARZ is an ensemble-based defense that utilizes majority voting combined with a rejection threshold. If the models do not reach a specified level of agreement, the input is rejected (assigned to a "noise" class), creating a "Barrier Zone" against adversarial perturbations.
 
